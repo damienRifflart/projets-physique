@@ -65,29 +65,31 @@ export default function App() {
     };
 
     return (
-        <Routes>
-            <Route path="/" element={
-                <div className="min-h-screen bg-[#e5e7eb]">
-                    <main className="px-10 py-16">
-                        <h1 className="text-5xl text-center font-semi underline bold mb-10">
-                        Projets de physique
-                        </h1>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {projects.map((project) => {
-                            const colorClass = getTagColorClass(project.id);
-                            return (
-                                <ProjectCard key={project.id} project={project} colorClass={colorClass} />
-                            );
-                        })}
-                        </div>
-
-                    </main>
-                </div>
-            } />
-
-            <Route path="/particle-dynamics/article" element={<Article />}/>
-        </Routes>
-        <Analytics />
+        <>
+            <Routes>
+                <Route path="/" element={
+                    <div className="min-h-screen bg-[#e5e7eb]">
+                        <main className="px-10 py-16">
+                            <h1 className="text-5xl text-center font-semi underline bold mb-10">
+                            Projets de physique
+                            </h1>
+    
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                            {projects.map((project) => {
+                                const colorClass = getTagColorClass(project.id);
+                                return (
+                                    <ProjectCard key={project.id} project={project} colorClass={colorClass} />
+                                );
+                            })}
+                            </div>
+    
+                        </main>
+                    </div>
+                } />
+    
+                <Route path="/particle-dynamics/article" element={<Article />}/>
+            </Routes>
+            <Analytics />
+        </>
     );
 };
