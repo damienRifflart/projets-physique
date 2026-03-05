@@ -87,7 +87,7 @@ export default function App() {
             } />
 
             <Route path="/particle-dynamics/article" element={<Article />}/>
-            <Analytics />
         </Routes>
+        <Analytics />
     );
 };
