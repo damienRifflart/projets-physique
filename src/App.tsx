@@ -2,6 +2,7 @@ import { ProjectCard } from "./components/ProjectCard";
 import type { Project } from "../types/project";
 import { Routes, Route } from "react-router-dom";
 import Article from "./pages/Article";
+import { Analytics } from "@vercel/analytics/react";
 
 
 export default function App() {
@@ -86,6 +87,7 @@ export default function App() {
             } />
 
             <Route path="/particle-dynamics/article" element={<Article />}/>
+            <Analytics />
         </Routes>
     );
 };
