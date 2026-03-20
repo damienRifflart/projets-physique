@@ -1,7 +1,7 @@
 import { ProjectCard } from "./components/ProjectCard";
 import type { Project } from "../types/project";
 import { Routes, Route } from "react-router-dom";
-import Article from "./pages/Article";
+import { ParticleDynamicsArticle } from "./pages/particleDynamicsArticle";
 import { Analytics } from "@vercel/analytics/react";
 
 
@@ -69,11 +69,10 @@ export default function App() {
             <Routes>
                 <Route path="/" element={
                     <div className="min-h-screen bg-[#e5e7eb]">
-                        <main className="px-10 py-16">
-                            <h1 className="text-5xl text-center font-semi underline bold mb-10">
-                            Projets de physique
-                            </h1>
-    
+                        <div className="px-10 py-16">
+                            <h1 className="text-5xl text-center font-semi underline bold mb-10">Projets de physique</h1>
+                            
+                            <h3 className="text-2xl text-center mb-5">Vous pourrez voir, en cliquant sur les liens ci-dessous, les différents articles que nous avons écrits.</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                             {projects.map((project) => {
                                 const colorClass = getTagColorClass(project.id);
@@ -82,12 +81,11 @@ export default function App() {
                                 );
                             })}
                             </div>
-    
-                        </main>
+                        </div>
                     </div>
                 } />
     
-                <Route path="/particle-dynamics/article" element={<Article />}/>
+                <Route path="/particle-dynamics/article" element={<ParticleDynamicsArticle />}/>
             </Routes>
             <Analytics />
         </>

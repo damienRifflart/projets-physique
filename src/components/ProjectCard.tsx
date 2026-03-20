@@ -43,7 +43,7 @@ export function ProjectCard({ project, colorClass}: ProjectCardProps) {
                 {project.isPage ? (
                     <Link to={project.href}>
                         <p className={`inline-flex items-center ${colorClass.color} font-semibold ${colorClass.hover} transition-colors`}>
-                            {project.title}
+                            Découvrir le projet
                             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                             </svg>
