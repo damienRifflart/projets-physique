@@ -265,6 +265,10 @@ export function ParticleDynamicsArticle() {
                             <FileDown size={17} />
                             {t("downloadFig2")}
                         </a>
+                        <a href={"https://projets-physique.vercel.app/particle-dynamics/figures.zip"} download="figures" className="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-900 hover:bg-blue-700 text-white text-sm font-medium transition-all duration-300 hover:scale-102">
+                            <FileDown size={17} />
+                            Figures zip
+                        </a>
                     </div>
                 </GlassCard>
             </div>

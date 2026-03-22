@@ -76,7 +76,7 @@ for case_label, params in cases.items():
         D = density_xz(nx_state, nz_state, X2, Z2, p_x=p_x, p_z=p_z)
         fname = f"density_xz_case{case_label}_n{nx_state}_{nz_state}.png"
         plt.figure(figsize=(6,5))
-        plt.contourf(X2, Z2, D, levels=100, cmap='viridis')
+        plt.contourf(X2, Z2, D, levels=100, cmap='plasma')
         plt.colorbar(label=r'$|\Phi|^2$')
         plt.xlabel('x')
         plt.ylabel('z')
