@@ -5,7 +5,6 @@ const TRANSLATIONS = {
     fr: {
         title: "Dynamique de particules",
         subtitle: "Etude du mouvement de particules chargées dans un champ magnétique uniforme, en mécanique classique & quantique.",
-        authors: "Damien RIFFLART & Eliott ARNOLD, Benoît ROESSLINGER",
         infoTitle: "Information",
         infoBody1: "Dans le cadre des olympiades de physique, nous avons comme projet d'étudier le mouvement d'électrons placées dans un champ magnétique uniforme. Les électrons, résultants de la désintégration de muons cosmiques, sont détectés par une chambre à brouillard refroidie par neuf modules Peltiers à environ -40 degrés Celsius. Le dispositif expérimental n'est pas encore entièrement mis au point, mais nous prévoyons de publier les résultats obtenus sur ce site d'ici 2027.",
         infoBody2: "Nous avons également rédigé un article sur la dynamique des particules dans un champ magnétique détaillant notre démarche en mécanique classique et quantique. Vous pourrez le télécharger ci-dessous, ainsi qu'un simulateur permettant de visualiser la trajectoire d'une particule chargée en ajustant les conditions initiales et les codes sources des figures de l'article.",
@@ -27,7 +26,6 @@ const TRANSLATIONS = {
     en: {
         title: "Particle Dynamics",
         subtitle: "Study of the motion of charged particles in a uniform magnetic field, in classical & quantum mechanics.",
-        authors: "Damien RIFFLART & Eliott ARNOLD, Benoît ROESSLINGER",
         infoTitle: "Information",
         infoBody1: "As part of the physics olympiads, our project is to study the motion of electrons placed in a uniform magnetic field. The electrons, resulting from the decay of cosmic muons, are detected using a cloud chamber cooled by nine Peltier modules to approximately -40 degrees Celsius. The experimental setup is not yet fully developed, but we plan to publish the results obtained on this site by 2027.",
         infoBody2: "We have also written a paper on particle dynamics in a magnetic field detailing our approach in classical and quantum mechanics. You can download it below, along with a simulator to visualise the trajectory of a charged particle by adjusting the initial conditions and source codes of figures of the paper.",

@@ -24,7 +24,7 @@ export default function App() {
             icon: <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>,
             gradient: 'from-yellow-500 to-orange-600',
             tag: { label: 'Newton', color: 'bg-orange-600' },
-            href: '/LancerVertical.pdf',
+            href: '/LancerVerticalCaviardé.pdf',
             isPage: false
         },
         {
@@ -34,7 +34,7 @@ export default function App() {
             icon: <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/></svg>,
             gradient: 'from-green-500 to-teal-600',
             tag: { label: 'Newton', color: 'bg-teal-600' },
-            href: '/OscillateurHarmonique.pdf',
+            href: '/OscillateurHarmoniqueCaviardé.pdf',
             isPage: false
         },
         {
@@ -49,7 +49,7 @@ export default function App() {
             ),
             gradient: 'from-red-400 to-red-700',
             tag: { label: 'Lagrangien', color: 'bg-red-600' },
-            href: '/PenduleSimple.pdf',
+            href: '/PenduleSimpleCaviardé.pdf',
             isPage: false
         }
     ];
